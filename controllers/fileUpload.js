@@ -26,7 +26,7 @@ exports.localFileUpload=async (req,res)=>{
         console.log(error);
     }
 }
-
+// next day programm
 // for validation---------------------------------------
 function isFileTypeSupported(type,supportTypes){
     return supportTypes.includes(type);
